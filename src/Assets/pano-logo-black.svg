@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="416px" height="126px" viewBox="0 0 416 126" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Inline (w/ tag) Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Inline-(w/-tag)-Copy-2">
+            <text id="REAL-ESTATE-PHOTOGRA" font-family="Linotte-SemiBold, Linotte" font-size="27" font-weight="500" letter-spacing="1.45000005" fill="#484848">
+                <tspan x="13" y="110">REAL ESTATE PHOTOGRAPH</tspan>
+                <tspan x="386.558001" y="110">Y</tspan>
+            </text>
+            <text id="anoractives" font-family="Linotte-SemiBold, Linotte" font-size="64" font-weight="500" letter-spacing="2.1556592" fill="#484848">
+                <tspan x="54" y="77">anoractives</tspan>
+            </text>
+            <g id="P-(inline,-large)" transform="translate(20.000000, 16.000000)" stroke="#00BDEE" stroke-linecap="round">
+                <path d="M0.321176677,54.6843283 L0.321176678,0.645119852 C0.321176678,0.645119852 7.59589046,-0.517781621 15.3661528,0.279071645 C18.655742,0.616424461 22.0341486,1.30502514 24.9869807,2.58181572 C30.23097,4.84929182 33.6613847,10.3699406 33.6786901,15.4720889 C33.7287573,30.2333594 19.6467039,31.6230943 19.6467039,31.6230943 L13.3602629,31.8119238" id="Path-5" stroke-width="9"></path>
+                <g id="Line-+-Line-Copy-3" stroke-width="1" fill-rule="evenodd" transform="translate(12.823531, 32.173222) rotate(-270.000000) translate(-12.823531, -32.173222) translate(4.823531, 28.173222)" stroke-linejoin="round">
+                    <path d="M7.54249058,7.17061771 L0.337413699,0.110212902 L0.224942466,-1.77635684e-15 L-1.77635684e-15,0.220425805 L0.112471233,0.330638707 L7.31754811,7.39104351 L7.31668379,7.39189049 L7.54162625,7.61231629 L7.54249058,7.61146932 L7.54335491,7.61231629 L7.76829738,7.39189049 L7.76743305,7.39104351 L14.9725099,0.330638707 L15.0849812,0.220425805 L14.8600387,-1.77635684e-15 L14.7475675,0.110212902 L7.54249058,7.17061771 Z" id="Line" stroke-width="6"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
