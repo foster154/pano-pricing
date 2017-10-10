@@ -18,7 +18,8 @@ class App extends Component {
       intExtOnly: '',
       aerials: false,
       virtualTour: false,
-      customPricing: ''
+      customPricing: '',
+      halfOff: false
     }
   }
 
@@ -43,6 +44,7 @@ class App extends Component {
           setAerials={value => this.updateValue('aerials', value)}
           setVirtualTour={value => this.updateValue('virtualTour', value)}
           setCustomPricing={value => this.updateValue('customPricing', value)}
+          setHalfOff={value => this.updateValue('halfOff', value)}
         />
         <TravelCharge
           currentMileage={this.state.mileage}

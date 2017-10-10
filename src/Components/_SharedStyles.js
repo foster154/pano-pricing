@@ -25,8 +25,10 @@ export const Button = styled.div`
   border: 1px solid rgba(0, 0, 0, 0.09);
   border-radius: 4px;
   text-align: center;
+  padding: 2px;
   margin: 5px;
   font-size: 13px;
+  line-height: 13px;
   color: ${props => (props.active ? 'white' : colors.inactiveGray)};
   background-color: ${props => (props.active ? colors.accent : '#fff')};
   cursor: default;

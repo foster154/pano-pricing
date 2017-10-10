@@ -120,6 +120,11 @@ export function calculateResult(state) {
     processorResult += pricing.processor.exteriorsOnly
   }
 
+  // Half off
+  if (state.halfOff) {
+    customerResult = Math.floor(customerResult / 2)
+  }
+
   // Aerials
   if (state.aerials) {
     customerResult += pricing.customer.aerials
@@ -139,6 +144,11 @@ export function calculateResult(state) {
     customerResult += pricing.customer.travelChargePerMile * state.mileage
     photographerResult +=
       pricing.photographer.travelChargePerMile * state.mileage
+  }
+
+  if (state.halfOff) {
+    photographerResult = photographerResult - 10
+    processorResult = processorResult - 5
   }
 
   return {

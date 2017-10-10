@@ -11,7 +11,8 @@ class HomeSize extends Component {
       setIntExtOnly,
       setAerials,
       setVirtualTour,
-      setCustomPricing
+      setCustomPricing,
+      setHalfOff
     } = this.props
 
     return (
@@ -70,6 +71,15 @@ class HomeSize extends Component {
           >
             New View
           </Button>
+
+          <Button
+            onClick={() => {
+              setHalfOff(!currentValues.halfOff)
+            }}
+            active={currentValues.halfOff}
+          >
+            50% off
+          </Button>
         </ButtonSection>
       </Wrapper>
     )
@@ -81,7 +91,8 @@ HomeSize.propTypes = {
   setIntExtOnly: PropTypes.func,
   setAerials: PropTypes.func,
   setVirtualTour: PropTypes.func,
-  setCustomPricing: PropTypes.func
+  setCustomPricing: PropTypes.func,
+  setHalfOff: PropTypes.func
 }
 
 export default HomeSize
