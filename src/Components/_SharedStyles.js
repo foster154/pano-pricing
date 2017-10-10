@@ -20,17 +20,17 @@ export const Button = styled.div`
   justify-content: center;
   align-items: center;
   height: 54px;
-  width: 54px;
+  width: 100%;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.03);
   border: 1px solid rgba(0, 0, 0, 0.09);
   border-radius: 4px;
   text-align: center;
   margin: 5px;
   font-size: 13px;
-  transition: transform 200ms;
-
   color: ${props => (props.active ? 'white' : colors.inactiveGray)};
-  background-color: ${props => (props.active ? colors.accent : '#fafafa')};
+  background-color: ${props => (props.active ? colors.accent : '#fff')};
+  cursor: default;
+  transition: transform 200ms;
 
   &:active {
     transform: scale(0.95);

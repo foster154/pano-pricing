@@ -92,7 +92,7 @@ const Wrapper = styled.div`
 
 const ButtonSection = styled.div`
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-around;
   margin: 10px 20px;
 `

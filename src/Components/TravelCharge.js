@@ -59,8 +59,9 @@ const Label = styled.div`
 
 const Input = styled.input`
   width: 70%;
-  background-color: transparent;
-  border: 1px solid ${colors.inactiveGray};
+  background-color: white;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.09);
   border-radius: 4px;
   color: ${colors.accent};
   text-align: right;

@@ -66,11 +66,12 @@ const Wrapper = styled.div`
   width: 100%;
   height: 100vh;
   max-width: 600px;
-  margin: 10px auto;
+  margin: 0 auto;
 `
 
 const LogoWrapper = styled.div`
   text-align: center;
+  margin-top: 10px;
 `
 
 const Logo = styled.img`

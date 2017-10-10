@@ -2,6 +2,7 @@
   "name": "pano-pricing",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://www.panoractives.com/pricing-calculator",
   "dependencies": {
     "font-awesome": "^4.7.0",
     "react": "^16.0.0",

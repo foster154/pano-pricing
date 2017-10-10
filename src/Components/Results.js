@@ -12,7 +12,7 @@ class Results extends Component {
 
     return (
       <Wrapper>
-        <Title>Result</Title>
+        {/* <Title>Result</Title> */}
         <Result>${results.customer}</Result>
         <SubResult>Photographer: ${results.photographer}</SubResult>
         <SubResult>Processor: ${results.processor}</SubResult>
