@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
-import { colors, SectionTitle, Button } from './_SharedStyles'
+import { colors, SectionTitle } from './_SharedStyles'
 
 class TravelCharge extends Component {
   render() {
@@ -35,13 +35,6 @@ export default TravelCharge
 
 const Wrapper = styled.div`
   width: 100%;
-`
-
-const ButtonSection = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin: 10px 20px;
 `
 
 const Content = styled.div`

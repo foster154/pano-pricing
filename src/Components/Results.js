@@ -12,8 +12,10 @@ class Results extends Component {
 
     return (
       <Wrapper>
-        {/* <Title>Result</Title> */}
         <Result>${results.customer}</Result>
+        <SubResult>
+          <strong>Green: ${results.green}</strong>
+        </SubResult>
         <SubResult>Photographer: ${results.photographer}</SubResult>
         <SubResult>Processor: ${results.processor}</SubResult>
       </Wrapper>
@@ -37,15 +39,7 @@ const Wrapper = styled.div`
   background-color: ${colors.accent};
   color: white;
   padding: 20px;
-  // height: 184px;
   flex: 1;
-`
-
-const Title = styled.div`
-  font-size: 18px;
-  font-weight: 600;
-  text-transform: uppercase;
-  // margin-bottom: 10px;
 `
 
 const Result = styled.div`

@@ -153,6 +153,7 @@ export function calculateResult(state) {
 
   return {
     customer: customerResult,
+    green: photographerResult + processorResult,
     photographer: photographerResult,
     processor: processorResult
   }
